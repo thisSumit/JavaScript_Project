@@ -8,6 +8,6 @@ if(color=="yellow"){
 if(color=="red"){
     console.log("Stop!!!");
 }
-else{
-    console.log("Syntax Error")
+if(color!="red"&& color!="green" && color!="yellow"){
+    console.log("Syntax Error and Retry");
 }
